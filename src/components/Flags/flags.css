@@ -1,0 +1,71 @@
+.container-flags {
+  width: 100%;
+  background: var(--primary-color);
+  height: 286px;
+  padding: 60px 20px;
+  justify-content: center;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.sub-container-flags {
+  height: 166px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px #d8d8d8;
+  border-bottom: solid 1px #d8d8d8;
+}
+.slick-slider {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slick-list {
+  display: flex;
+  justify-content: center;
+}
+
+.flag-and-description {
+  display: flex !important ;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flag-and-description img {
+  width: 70px;
+}
+
+.flag-and-description p {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .flag-and-description img {
+    width: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .flag-and-description p {
+    font-size: 21px;
+  }
+}
+@media (max-width: 640px) {
+  .sub-container-flags {
+    gap: 10px;
+  }
+
+  .flag-and-description {
+    flex-wrap: wrap;
+  }
+
+  .flag-and-description img {
+    height: 23px;
+  }
+}

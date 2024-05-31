@@ -1,0 +1,101 @@
+.section-calltoaction {
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-image-phone {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal-container {
+  background: var(--primary-color);
+  width: 100%;
+  max-width: 1380px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 120px 55px;
+}
+.Ellipse {
+  position: absolute;
+}
+.MobileMockup {
+  position: relative;
+  top: 1px;
+}
+
+.container-description-phone {
+  width: 570px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container-description-phone h1 {
+  font-size: 67px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--text-color);
+}
+
+.container-description-phone p {
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.button {
+  width: 240px;
+  height: 60px;
+  background: var(--second-color);
+  color: var(--primary-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.button:hover {
+  transition: all ease-in-out 0.3s;
+  background: var(--text-color);
+}
+
+@media (max-width: 769px) {
+  .principal-container {
+    padding: 100px 32px;
+    gap: 40px;
+  }
+  .container-description-phone h1 {
+    font-size: 38px;
+  }
+  .container-description-phone p {
+    font-size: 16px;
+  }
+  .Ellipse {
+    width: 320px;
+  }
+  .MobileMockup {
+    width: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+  .principal-container {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .container-description-phone {
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

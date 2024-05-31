@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #f8f9ff;
+  --second-color: #719bc6;
+  --text-color: #2d2d2d;
+  --blue-light: #ddeaf9;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffff;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+li {
+  list-style: none;
+}
